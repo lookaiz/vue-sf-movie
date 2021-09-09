@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+
+  border-radius: 8px 8px 8px 8px;
+  font-family: 'montserrat', sans-serif;
+}
+
+/*body {
+  font-family: 'montserrat', sans-serif;
+}
+*/
+
+#app {
+  background-image: url('./goldengatebridge.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 2s;
+}
+
+#app.g {
+  background-image: url('./g.jpeg');
+  background-position: top;
+}
+
+main {
+  min-height: 100vh; /* 100% vertical height */
+  padding: 25px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.75));
+}
+
+.title-label {
+    font-size: 24px;
+    color: gold;
+}
+
+.search-box, .search-bar {
+  display: block;
+  /* width: 35%; */
+  padding: 5px;
+  
+  color: #313131;
+  font-size: 20px;
+
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+
+  background-color: rgba(255,255,255, 0.5);
+  border-radius: 0px 16px 0px 16px;
+}
+
+.search-box {
+    width: 35%;
+    /* margin-bottom: 80px; */
+    margin-top: 50px;
+}
+
+.search-bar {
+    width: 100%
+}
+
+.search-box, .search-bar:focus {
+  background-color: rgba(255,255,255, 0.75)
+}
+
+.search-button {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-size: 24px;
+  background-color: rgba(220, 227, 241, 0.75);
+  /* color: rgb(157, 158, 163); */
+  cursor: pointer;
+}
+
+.search-label {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgba(231, 119, 125, 0.75);
+}
+
+.list-movie-box, .list-movie-item {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+  border-radius: 16px 16px 16px 16px;
+  /* padding: 5px 5px 5px 5px; */
+  /* margin-bottom: 5px; */
+  padding: 5px
+}
+
+/* .list-movie-box { */
+  /* display: flex; */
+  /* max-width: 444px; */
+  /* flex-wrap: wrap; */
+  /* padding-top: 12px; */
+/* } */
+
+.list-movie-item:hover {
+  transform: scale(1.1);
+  background-color: gold;
+  cursor: pointer;
+}
+
+.selected-movie-box {
+    display:flex;
+}
+
+.selected-movie-info {
+  margin-top: 80px;
+  margin-right: 20px;
+}
+
+.selected-movie-item {
+  font-size: 16px;
+  text-align: left;
+  /* margin-bottom: 30px; */
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.25));
+
+}
+
+p {
+  margin-bottom: 5px;
+  white-space: pre;
+}
+
+.movie-image {
+    /* padding-top:10px; */
+    /* border: solid; */
+    /* text-align: left; */
+    border:solid gold;
+    /* width: 25%; */
+}
+
+.movie-detail .movie-detail-title {
+  white-space: pre;
+}
+
+.movie-detail-title {
+    font-size:24px;
+}
+
+/* .block_container, .list-movie-box, .movie-detail-box
+{
+    max-width: 200px;
+    min-width:200px;
+    background:grey;
+    display:inline-block;
+    vertical-align: top;
+} */
+
+
+
+/*.list-movie-box {
+    background-color: rgba(255,255,255, 0.45);
+}*/
+
+/*.list-movie-item {
+    max-width: 50rem;
+		
+    margin-bottom: 10px;
+		padding: 10;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+}
+*/
+
+/*h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}*/
