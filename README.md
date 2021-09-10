@@ -1,4 +1,8 @@
-# vue-sf-movie
+# Film locations in San Francisco
+
+Front-end part, made with [Vue.js](https://vuejs.org/) framework.
+
+Based upon datas available here : https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am/data
 
 ## Project setup
 ```
